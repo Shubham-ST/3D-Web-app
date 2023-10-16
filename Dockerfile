@@ -4,4 +4,4 @@ COPY . .
 RUN pip install -r requirements.txt
 RUN pipenv install
 EXPOSE 2000
-CMD ["pipenv", "run", "python", "api.py"]
+CMD ["python","api.py","pipenv","runserver","0.0.0.0:2000"]
