@@ -1,0 +1,6 @@
+version: "3"
+services:
+  web:
+    image: shubhamdockerhub01/web-app:latest
+    ports:
+      - "2000:2000"
